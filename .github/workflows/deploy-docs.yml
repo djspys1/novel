@@ -5,7 +5,7 @@ on:
   push:
     branches:
       # 确保这是你正在使用的分支名称
-      - main
+      - master
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
           cache: npm
 
       - name: 安装依赖
-        run: npm install
+        run: npm install --registry=https://registry.npmmirror.com
 
       - name: 构建文档
         env:
