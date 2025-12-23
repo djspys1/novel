@@ -1,0 +1,16 @@
+import comp from "/Users/pengding/Documents/project/extra/txt-reader/docs/.vuepress/.temp/pages/pages/shaosong/第150章_第149章_问答.html.vue"
+const data = JSON.parse("{\"path\":\"/pages/shaosong/%E7%AC%AC150%E7%AB%A0_%E7%AC%AC149%E7%AB%A0_%E9%97%AE%E7%AD%94.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"ReaderLayout\"},\"headers\":[],\"git\":{},\"filePathRelative\":\"pages/shaosong/第150章_第149章_问答.md\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
