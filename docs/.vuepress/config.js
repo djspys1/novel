@@ -48,7 +48,7 @@ const novelNav = fs.readdirSync(novelsDir)
 
 export default defineUserConfig({
   lang: 'en-US',
-  base: '/',
+  base: '/novel',
 
   title: 'VuePress',
   description: 'My first VuePress Site',
