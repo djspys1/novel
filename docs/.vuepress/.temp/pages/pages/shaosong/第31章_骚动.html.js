@@ -1,0 +1,3 @@
+import comp from "/Users/pengding/Documents/project/extra/txt-reader/docs/.vuepress/.temp/pages/pages/shaosong/第31章_骚动.html.vue"
+const data = JSON.parse("{\"path\":\"/pages/shaosong/%E7%AC%AC31%E7%AB%A0_%E9%AA%9A%E5%8A%A8.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1766459054000,\"contributors\":[{\"name\":\"Peng\",\"username\":\"Peng\",\"email\":\"Peng.Ding@partner.bmwgroup.com\",\"commits\":1,\"url\":\"https://github.com/Peng\"}],\"changelog\":[{\"hash\":\"c6b87bdde5414b9051d1a9dba70a3208ac988591\",\"time\":1766459054000,\"email\":\"Peng.Ding@partner.bmwgroup.com\",\"author\":\"Peng\",\"message\":\"init\"}]},\"filePathRelative\":\"pages/shaosong/第31章_骚动.md\"}")
+export { comp, data }
